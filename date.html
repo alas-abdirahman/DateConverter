@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="date.css">
+    <script src="date.js"></script>
+    <title>DateConvert</title>
+</head>
+<body>
+    <div class="main-container">
+        <header class="header-container">
+            <h3 id="h3">Gregorian to Hijri Converter</h3>
+            <button id="switch" onclick="changeDateSelection()">
+                <img src="switchIco2.png" alt="icon" id="switchImage">
+                switch
+            </button>
+        </header>
+        <hr>
+        <div style="text-align: center; font-size: 20px;">Select a date to  convert</div> 
+        <br>
+        <div class="select-container">
+            <select name="" id="days">
+                <option value="1" class="day">1</option>
+                <option value="2" class="day">2</option>
+                <option value="3" class="day">3</option>
+                <option value="4" class="day">4</option>
+                <option value="5" class="day">5</option>
+                <option value="6" class="day">6</option>
+                <option value="7" class="day">7</option>
+                <option value="8" class="day">8</option>
+                <option value="9" class="day">9</option>
+                <option value="10" class="day">10</option>
+                <option value="11" class="day">11</option>
+                <option value="12" class="day">12</option>
+                <option value="13" class="day">13</option>
+                <option value="14" class="day">14</option>
+                <option value="15" class="day">15</option>
+                <option value="16" class="day">16</option>
+                <option value="17" class="day">17</option>
+                <option value="18" class="day">18</option>
+                <option value="19" class="day">19</option>
+                <option value="20" class="day">20</option>
+                <option value="21" class="day">21</option>
+                <option value="22" class="day">22</option>
+                <option value="23" class="day">23</option>
+                <option value="24" class="day">24</option>
+                <option value="25" class="day">25</option>
+                <option value="26" class="day">26</option>
+                <option value="27" class="day">27</option>
+                <option value="28" class="day">28</option>
+                <option value="29" class="day">29</option>
+                <option value="30" class="day">30</option>
+                <option value="31" class="day">31</option>
+            </select>
+            <select name="" id="month">
+                <option value="1" class="month">January</option>
+                <option value="2" class="month">February</option>
+                <option value="3" class="month">March</option>
+                <option value="4" class="month">April</option>
+                <option value="5" class="month">May</option>
+                <option value="6" class="month">June</option>
+                <option value="7" class="month">July</option>
+                <option value="8" class="month">August</option>
+                <option value="9" class="month">September</option>
+                <option value="10" class="month">October</option>
+                <option value="11" class="month">November</option>
+                <option value="12" class="month">December</option>
+            </select>
+            <select name="" id="year">
+                <option value="2010" class="year">2010</option>
+                <option value="2011" class="year">2011</option>
+                <option value="2012" class="year">2012</option>
+                <option value="2013" class="year">2013</option>
+                <option value="2014" class="year">2014</option>
+                <option value="2015" class="year">2015</option>
+                <option value="2016" class="year">2016</option>
+                <option value="2017" class="year">2017</option>
+                <option value="2018" class="year">2018</option>
+                <option value="2019" class="year">2019</option>
+                <option value="2020" class="year">2020</option>
+                <option value="2021" class="year">2021</option>
+
+            </select>
+        </div>
+
+        <div class="converted-date">
+            <span id="maalinta"> </span>
+            <span id="bisha"> </span>
+            <span id="sanadka"> </span>
+        </div>
+        
+        <button id="convert" onclick="convertMiladi()">CONVERT</button>
+        <p style="margin-left: 250px;">There is a small probability of one day error!</p>
+    </div>
+</body>
+</html>

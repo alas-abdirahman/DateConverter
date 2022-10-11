@@ -1,0 +1,62 @@
+.main-container{
+    border: 1px solid;
+    width: 800px;
+    margin: 20px auto;
+    background-color: green;
+    color: white;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#switch{
+    background-color: #00befe;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#switchImage{
+    width: 24px;
+    height: 16px;
+    background-color: #00befe;
+}
+.select-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 40px;
+}
+#convert{
+    background-color: #00befe;
+    color: white;
+    width: 160px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#days{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#month{
+    font-size: 20px;
+    margin-right: 80px;
+}
+#year{
+    font-size: 20px;
+    margin-right: 80px;
+}
+.converted-date{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
